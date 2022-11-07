@@ -9858,14 +9858,26 @@ h5 + .list-popular-product {
 	margin: 0 auto;
 }
 
-.box-categories-title {
-	font-weight: 400;
-	letter-spacing: .1em;
-}
 
 .box-categories-list {
 	letter-spacing: .025em;
+	background-color: #0c1b4d;
+	height: 330px;
+	border-radius: 19px;
 }
+.box-categories__item{
+	display: block;
+	margin-top: 45px;
+}
+.box-categories__title{
+	font-weight: 400px !important;
+	letter-spacing: .1em;
+	margin-top: 45px;
+	color: #F3F3F3;	
+	text-decoration: underline #fbc108;
+    text-underline-offset: 8px;
+}
+
 
 .box-categories-list li {
 	transition: all .2s ease;
@@ -13837,7 +13849,7 @@ html.tablet .ui-to-top {
 .slider-img__dark{
 	
 	background-color: rgba(0,0,0,0.4);
-	
+
 }
 
 .rd-navbar-static .rd-nav-item + .rd-nav-item {
