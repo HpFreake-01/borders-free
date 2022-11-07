@@ -13834,10 +13834,17 @@ html.tablet .ui-to-top {
 	margin-top: 20px;
 }
 
+.slider-img__dark{
+	
+}
+
 .rd-navbar-static .rd-nav-item + .rd-nav-item {
 	margin-left: 42px;
 }
 
+.header-slider__button{
+	border: 2px #fbc108 solid;
+}
 .rd-navbar-static .rd-nav-link {
 	position: relative;
 	display: inline-block;
