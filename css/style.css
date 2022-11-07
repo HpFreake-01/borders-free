@@ -13836,6 +13836,8 @@ html.tablet .ui-to-top {
 
 .slider-img__dark{
 	
+	background-color: rgba(0,0,0,0.4);
+	
 }
 
 .rd-navbar-static .rd-nav-item + .rd-nav-item {
