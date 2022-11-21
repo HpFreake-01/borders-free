@@ -2989,6 +2989,21 @@ hr {
 	background-color: #01b3a7;
 	border-color: #01b3a7;
 }
+.start-work__withus{
+	color: #fff ;
+	border-radius: 5px !important;
+	
+}
+.start-work__withus::before{
+	background-color: #0c1b4d !important;
+	border-radius: 5px !important;
+}
+.start-work__withus::after{
+	background-color: #0c1b4d !important;
+	color: #fbc108 !important;
+	border-radius: 5px !important;
+	border: none !important;
+}
 
 .button-default.button-ujarak::before {
 	background: #01b3a7;
@@ -8670,7 +8685,7 @@ textarea.textarea-lg {
 
 .footer-corporate {
 	text-align: center;
-	background: #162e44;
+	background: #0c1b4d;
 }
 
 .footer-corporate h6 {
@@ -9878,6 +9893,11 @@ h5 + .list-popular-product {
     text-underline-offset: 8px;
 }
 
+.watingforyou-title{
+	text-decoration:1px underline #fbc108 !important;
+	text-underline-offset: 13px;
+	margin-bottom: 23px;
+}
 
 .box-categories-list li {
 	transition: all .2s ease;
@@ -13630,7 +13650,7 @@ html.tablet .ui-to-top {
 .rd-navbar-toggle span:after, .rd-navbar-toggle span:before, .rd-navbar-toggle span {
 	width: 24px;
 	height: 3px;
-	background-color: #151515;
+	background-color: #fff;
 	backface-visibility: hidden;
 	border-radius: 0;
 }
@@ -13684,7 +13704,7 @@ html.tablet .ui-to-top {
 	height: 6px;
 	line-height: 6px;
 	text-align: center;
-	background: #151515;
+	background: #fff;
 	left: 50%;
 	margin-left: -3px;
 	border-radius: 50%;
@@ -15068,7 +15088,9 @@ html.tablet .ui-to-top {
 	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
 	background: #ffffff;
 }
-
+.rd-navbar-panel{
+	background-color: #0c1b4d !important;
+}
 .rd-navbar-fixed .rd-navbar-nav-wrap {
 	color: #ffffff;
 	background: #ffffff;
